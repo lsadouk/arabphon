@@ -9,6 +9,11 @@ with LSTM seq2seq experiments using clean and noisy silver labels.
 - `models/` — LSTM encoder-decoder (Exp 1 clean, Exp 2 noisy)
 - `notebooks/` — training and evaluation notebooks
 
+## Notebooks
+- `arabphon_main.ipynb` — parser, dataset generation, LSTM training (Exp 1 & 2), evaluation
+- `ArabPhon_LLM_Judge.ipynb` — GPT-4o qualitative evaluation (LLM-as-judge)
+- `annotation.ipynb` — IAA computation (Cohen's kappa, parser accuracy)
+  
 ## Dataset
 ~[N] words with phoneme transcriptions and difficulty scores.
 Annotated subset: 300 words (150 test + 150 train), κ = 0.99.
