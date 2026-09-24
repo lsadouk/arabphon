@@ -16,13 +16,13 @@ with LSTM seq2seq experiments using clean and noisy silver labels.
   
 ## Dataset
 ~[N] words with phoneme transcriptions and difficulty scores.
-Annotated subset: 300 words (150 test + 150 train), κ = 0.99.
+Annotated subset: 250 words (150 test + 100 train), κ = 0.99.
 
 ## Results
 | Model | Exact Match | PER |
 |-------|-------------|-----|
-| Exp 1 (clean labels) | 78.0% | 5.37% |
-| Exp 2 (noisy labels) | 77.8% | 4.49% |
+| Exp 1 (clean labels) | 79.9% | 4.72% |
+| Exp 2 (noisy labels) | 81.6%% | 3.87% |
 
 ## Citation
 Sadouk, L., & Gadi, T. (under review). ArabPhon: A Rule-Based Arabic 
